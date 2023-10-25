@@ -11,3 +11,6 @@ Simple GUI-based Pokédex written in Python. Doesn't really have much to it. Can
 3. `pyinstaller pydex.py`
 4. `cd dist/pydex/`
 5. `./pydex`
+
+# Usage
+Type a number between 1 and 1017, press Enter/Return on your keyboard or click "Search". As simple as that. I don't think it needs to be any harder. :P
