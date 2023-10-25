@@ -39,13 +39,17 @@ def search_pokemon(event=None):
     try:
         dexnum = int(entry.get())
         if dexnum < 1 or dexnum > 1017:
-            result_label.config(text='Invalid Pokédex Number!')
+            result_label.config(text='Invalid Pokédex Number!', fg='red')
+            pokemon_image_def.config(image=None)
+            pokemon_image_def.image = None
+            pokemon_image_shiny.config(image=None)
+            pokemon_image_shiny.image = None
         else:
             pokemon = pokedex.get(dex=dexnum)
-            result_label.config(text=get_pokedex_info(pokemon))
+            result_label.config(text=get_pokedex_info(pokemon), fg='black')
             show_sprites(pokemon)
     except:
-        result_label.config(text='Not a Number!')
+        result_label.config(text='Not a Number!', fg='red')
         pokemon_image_def.config(image=None)
         pokemon_image_def.image = None
         pokemon_image_shiny.config(image=None)
