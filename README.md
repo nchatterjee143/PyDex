@@ -8,9 +8,9 @@ Simple GUI-based Pokédex written in Python. Doesn't really have much to it. Can
 # Instructions
 1. `git clone` this repository
 2. `cd` to the directory on your computer
-3. `pyinstaller pydex.py`
-4. `cd dist/pydex/`
-5. `./pydex`
+3. `pyinstaller PyDex.py`
+4. `cd dist/PyDex/`
+5. `./PyDex`
 
 # Usage
 Type a number between 1 and 1017, press Enter/Return on your keyboard or click "Search". As simple as that. I don't think it needs to be any harder. :P
