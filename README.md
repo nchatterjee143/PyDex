@@ -12,5 +12,10 @@ Simple GUI-based Pokédex written in Python. Doesn't really have much to it. Can
 4. `cd dist/PyDex/`
 5. `./PyDex`
 
+# Uninstall
+1. Close out of app
+2. `cd ..` 2x to return to original repo directory
+3. `make clean`
+
 # Usage
 Type a number between 1 and 1017, press Enter/Return on your keyboard or click "Search". As simple as that. I don't think it needs to be any harder. :P
