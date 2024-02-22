@@ -9,8 +9,6 @@ Simple GUI-based Pokédex written in Python. Doesn't really have much to it. Can
 1. `git clone` this repository
 2. `cd` to the directory on your computer
 3. `make` or `make release`
-4. `cd dist/PyDex/`
-5. `./PyDex`
 
 # Uninstall
 1. Close out of app
